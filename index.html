@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Kiran's Directory app</h1>
+    </header>
+    <main>
+      <div class="add-retrive-btn">
+        <button class="add-new-person">Add New person</button>
+       <a href="./retrive.html"><button >Retrieve Information</button></a> 
+      </div>
+      <div class="">Add new person</div>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Date of Birth</th>
+            <th>Adhaaar Number</th>
+            <th>Mobile Number</th>
+            <th>Age</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody class="tbody">
+          <tr>
+            <td><input type="text" class="name"/></td>
+            <td><input type="text" placeholder="mm/dd/yyyy" class="dateOfBirth" /></td>
+            <td><input type="number" class="adharNumber" maxlength="12" /></td>
+            <td><input type="number" class="mobileNumber" maxlength="10" /></td>
+            <td></td>
+            <td>
+              <button class="save">Save</button>
+              <button class="delete" >Delete</button>
+            </td>
+          </tr>
+          <!-- <tr class="dynamicRow">
+
+          </tr> -->
+        </tbody>
+      </table>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
